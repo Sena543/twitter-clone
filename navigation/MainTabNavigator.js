@@ -29,7 +29,7 @@ HomeStack.navigationOptions = {
       name={
         Platform.OS === 'ios'
           ? `ios-home`
-          : 'md-information-circle'
+          : 'ios-home'
       }
     />
   ),
@@ -48,7 +48,7 @@ const SearchStack = createStackNavigator(
 SearchStack.navigationOptions = {
   tabBarLabel: 'Search',
   tabBarIcon: ({ focused }) => (
-    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-search' : 'md-link'} />
+    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-search' : 'ios-search'} />
   ),
 };
 
@@ -64,7 +64,7 @@ const MessageStack = createStackNavigator(
 MessageStack.navigationOptions = {
   tabBarLabel: 'Message',
   tabBarIcon: ({ focused }) => (
-    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-mail' : 'md-options'} />
+    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-mail' : 'ios-mail'} />
   ),
 };
 
@@ -85,7 +85,7 @@ NotificationStack.navigationOptions = {
       name={
         Platform.OS === 'ios'
           ? `ios-notifications-outline`
-          : 'md-information-circle'
+          : 'ios-notifications-outline'
       }
     />
   ),
