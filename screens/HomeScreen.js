@@ -51,7 +51,7 @@ export default function HomeScreen() {
                 <Text style={{paddingHorizontal:20, fontSize:20, color:'#aaaaaa'}}>STUDENT</Text>
             </View>
             <View style={{flex:2, alignItems: "center", justifyContent:'center'}} >
-                <Ionicons size={26} color='#aaaaaa' name='ios-arrow-forward'/>
+                <Ionicons size={27} color='#aaaaaa' name='ios-arrow-forward'/>
             </View>
         </View>
         <View style={{marginTop:1, backgroundColor:'white', flexDirection:'row', height:30}}>
